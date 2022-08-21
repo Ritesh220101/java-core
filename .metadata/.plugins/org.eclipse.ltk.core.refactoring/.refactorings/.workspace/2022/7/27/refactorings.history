@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;18-rectangle-override-app&apos; to &apos;18-rectangle-override-object-app&apos;" description="Rename resource &apos;18-rectangle-override-app&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/18-rectangle-override-app" name="18-rectangle-override-object-app" stamp="1656674939087" updateReferences="true"/>
+</session>

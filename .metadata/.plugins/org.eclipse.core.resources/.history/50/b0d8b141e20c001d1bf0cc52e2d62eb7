@@ -1,0 +1,111 @@
+package com.aurionpro.test;
+
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+import com.aurionpro.model.Countries;
+import com.aurionpro.model.Region;
+
+public class RegionTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		List<Region> regions = getRegionList();
+		
+
+		ArrayList<Countries> countries = new ArrayList<>();
+		countries.add(new Countries("IT", "Italy", 1));
+		countries.add(new Countries("JP", "Japan", 3));
+		countries.add(new Countries("US", "United States of America", 2));
+		countries.add(new Countries("CA", "Canada", 2));
+		countries.add(new Countries("CN", "China", 3));
+		countries.add(new Countries("IN", "India", 3));
+		countries.add(new Countries("AU", "Australia", 3));
+		countries.add(new Countries("ZW", "Zimbabwe", 4));
+		countries.add(new Countries("SG", "Singapore", 3));
+		countries.add(new Countries("UK", "United Kingdom", 1));
+		countries.add(new Countries("FR", "France", 1));
+		countries.add(new Countries("DE", "Germany", 1));
+		countries.add(new Countries("ZM", "Zambia", 4));
+		countries.add(new Countries("EG", "Egypt", 4));
+		countries.add(new Countries("BR", "Brazil", 2));
+		countries.add(new Countries("CH", "Switzerland", 1));
+		countries.add(new Countries("NL", "Netherlands", 1));
+		countries.add(new Countries("MX", "Mexico", 2));
+		countries.add(new Countries("KW", "Kuwait", 4));
+		countries.add(new Countries("IL", "Israel", 4));
+		countries.add(new Countries("DK", "Denmark", 1));
+		countries.add(new Countries("HK", "HongKong", 3));
+		countries.add(new Countries("NG", "Nigeria", 4));
+		countries.add(new Countries("AR", "Argentina", 2));
+		countries.add(new Countries("BE", "Belgium", 1));
+
+		ArrayList<Countries> europeRegion = new ArrayList<Countries>();
+		ArrayList<Countries> americasRegion = new ArrayList<Countries>();
+		ArrayList<Countries> asiaRegion = new ArrayList<Countries>();
+		ArrayList<Countries> middleEastRegion = new ArrayList<Countries>();
+		for (Countries c : countries) {
+			if (c.getRegionCode() == 1)
+				europeRegion.add(c);
+			if (c.getRegionCode() == 2)
+				americasRegion.add(c);
+			if (c.getRegionCode() == 3)
+				asiaRegion.add(c);
+			if (c.getRegionCode() == 4)
+				middleEastRegion.add(c);
+		}
+		
+		System.out.println("In Europe region:");
+		print(europeRegion);
+
+		System.out.println("In Americas region:");
+		print(americasRegion);
+
+		System.out.println("In Asia region:");
+		print(asiaRegion);
+
+		System.out.println("In MiddleEast & Africa region:");
+		print(middleEastRegion);
+
+		System.out.println("Number of countries in Europe region: " + europeRegion.size());
+		System.out.println("Number of countries in Americas region: " + americasRegion.size());
+		System.out.println("Number of countries in Asia region: " + asiaRegion.size());
+		System.out.println("Number of countries in Middle East & Africa region: " + middleEastRegion.size());
+		System.out.println(
+				"-----------------------------------------------------------------------------------------------");
+
+		System.out.println("Enter the country code: ");
+		String code = sc.nextLine();
+		int rCode = 0;
+		for (Countries c : countries) {
+			if (code.equalsIgnoreCase(c.getCountryCode())) {
+				System.out.println("Country: " + c.getCountryName());
+				rCode = c.getRegionCode();
+			}
+		}
+		for (Region r : regions) {
+			if (rCode == r.getRegionCode())
+				System.out.println("Region: " + r.getRegions());
+		}
+
+	}
+
+	private static List<Region> getRegionList() {
+		List<Region> regions = Arrays.asList(new Region(1, "Europe"),
+											new Region(2, "Americas"),
+											new Region(3, "Asia"),
+											new Region(4, "Middle East and Africa"));
+		return null;
+	}
+
+	private static void print(List<Countries> countries) {
+		for (Countries e : countries)
+			System.out.println(e);
+		System.out.println(
+				"-----------------------------------------------------------------------------------------------");
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aurionpro.model.Country&apos; to &apos;Countries&apos;&#x0D;&#x0A;- Original project: &apos;region-country-refactored-app&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.model.Country&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpro.model.Countries&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Country&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.aurionpro.model{Country.java[Country" matchStrategy="1" name="Countries" qualified="false" references="true" similarDeclarations="false" stamp="1658840259587" textual="false" version="1.0"/>
+</session>

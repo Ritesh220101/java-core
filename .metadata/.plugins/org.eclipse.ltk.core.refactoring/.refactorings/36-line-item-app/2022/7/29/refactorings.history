@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;totalCost&apos; in &apos;com.aurionpro.test.LineItemTest.main(...)&apos; to &apos;totalCartPrice&apos;&#x0D;&#x0A;- Original project: &apos;36-line-item-app&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.test.LineItemTest.main(String[]).totalCost&apos;&#x0D;&#x0A;- Renamed element: &apos;totalCost&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;totalCost&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.aurionpro.test{LineItemTest.java[LineItemTest~main~\[QString;@totalCost!466!486!473!481!D!0!false" name="totalCartPrice" references="true" stamp="1657710841306" version="1.0"/>
+</session>

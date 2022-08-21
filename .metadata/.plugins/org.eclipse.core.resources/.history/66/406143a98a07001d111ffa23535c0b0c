@@ -1,0 +1,55 @@
+package com.aurionpro.model;
+
+import java.util.Iterator;
+
+public class CustomLinkedList {
+	private Node head;
+
+	public CustomLinkedList() {
+
+	}
+
+	public void add(int data) {
+		Node newNode = new Node(data);
+		if (this.head == null) {
+			head = newNode;
+		} else {
+			Node currentNode = head;
+			while (currentNode.getNextNode() != null) {
+				currentNode = currentNode.getNextNode();
+			}
+			currentNode.setNextNode(newNode);
+		}
+	}
+
+	public void remove(int data) {
+		Node temp = head;
+		Node prev = null;
+		Node next = null;
+
+		if (temp != null && temp.getData() == data) {
+			head = head.getNextNode();
+		}
+
+		while (temp != null && temp.getData() != data) {
+			prev = temp;
+			next = temp.getNextNode();
+		}
+		
+	}
+
+	public void display() {
+		if (head != null) {
+			Node currentNode = head;
+			while (currentNode != null) {
+				System.out.println(currentNode.getData());
+				currentNode = currentNode.getNextNode();
+			}
+		}
+	}
+
+	public Iterator<Node> iterator() {
+		return new ListIterator(head);
+	}
+
+}

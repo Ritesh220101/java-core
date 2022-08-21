@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;47-steam-api-app&apos; to &apos;47-stream-api-app&apos;" description="Rename resource &apos;47-steam-api-app&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/47-steam-api-app" name="47-stream-api-app" stamp="1658738894753" updateReferences="true"/>
+</session>

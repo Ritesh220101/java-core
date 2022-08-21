@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aurionpro.model.BMI&apos; to &apos;Bmi&apos;&#x0D;&#x0A;- Original project: &apos;16-person-bmi-app&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.model.BMI&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpro.model.Bmi&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BMI&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.aurionpro.model{BMI.java[BMI" matchStrategy="1" name="Bmi" qualified="false" references="true" similarDeclarations="false" stamp="1656502493864" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+package com.aurionpro.model;
+
+public class InvoicePrinter {
+
+	public void printInvoice() {
+		
+	}
+
+}

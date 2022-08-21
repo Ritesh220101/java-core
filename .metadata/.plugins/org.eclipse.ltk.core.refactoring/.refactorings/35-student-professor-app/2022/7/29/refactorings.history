@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aurionpro.model.BrachType&apos; to &apos;BranchType&apos;&#x0D;&#x0A;- Original project: &apos;35-student-professor-app&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.model.BrachType&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpro.model.BranchType&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BrachType&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.aurionpro.model{BrachType.java[BrachType" matchStrategy="1" name="BranchType" qualified="false" references="true" similarDeclarations="false" stamp="1657704320301" textual="false" version="1.0"/>
+</session>

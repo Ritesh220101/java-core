@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Employee.java&apos; to &apos;37-employee-hashmap-app/src&apos;&#x0D;&#x0A;- Original project: &apos;24-employee-inheritance-assignment-app&apos;&#x0D;&#x0A;- Destination element: &apos;37-employee-hashmap-app/src&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.model.Employee.java&apos;" description="Copy compilation unit" destination="=37-employee-hashmap-app/src" element1="/src&lt;com.aurionpro.model{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1657716171053" units="1" version="1.0"/>
+</session>

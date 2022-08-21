@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;com.aurionpro.model.Man.run()&apos; to &apos;read&apos;&#x0D;&#x0A;- Original project: &apos;21-man-boy-inheritance-app&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.model.Man.run()&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpro.model.Man.read()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;run&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;com.aurionpro.model{Man.java[Man~run" name="read" references="true" stamp="1657102956354" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aurionpro.test.ClonableTest&apos; to &apos;CloneableTest&apos;&#x0D;&#x0A;- Original project: &apos;29-employee-cloneable-app&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.test.ClonableTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpro.test.CloneableTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ClonableTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.aurionpro.test{ClonableTest.java[ClonableTest" matchStrategy="1" name="CloneableTest" qualified="false" references="true" similarDeclarations="false" stamp="1657474198796" textual="false" version="1.0"/>
+</session>
